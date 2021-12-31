@@ -38,7 +38,6 @@ function getCss(fontSize: string) {
 
     body {
         background: ${background};
-        background-size: 100px 100px;
         height: 100vh;
         display: flex;
         text-align: center;
@@ -78,7 +77,8 @@ function getCss(fontSize: string) {
     }
     
     .wrapper {
-        margin-left: 150px;
+        margin-left: 100px;
+        margin-right: 100px;
     }
 
     .date {
